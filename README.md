@@ -1,6 +1,6 @@
 # Modelo Player de Música
 
-Projeto desenvolvido com base nos desafios lançados pela Rocketseat.
+O projeto realizado tem como objetivo criar um player parecido com os aplicativos de música contendo foto da capa do álbum, nome da música, nome do artista/banda, botões de play, próxima música e música anterior e linha do tempo da música. Este foi baseado nos desafios lançados pela Rocketseat.
 
 **Desafio 01 > #boraCodar um player de música.**
 
