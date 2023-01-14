@@ -2,7 +2,7 @@
 
 Projeto desenvolvido com base nos desafios lançados pela Rocketseat.
 
-Desafio 01 > #boraCodar um player de música.
+**Desafio 01 > #boraCodar um player de música.**
 
 Para o desenvolvimento desse projeto foram utilizados:
 - HTML
