@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Player de Música</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="player-1" class="player">
+      <div class="wrapper">
+        <img src="https://images-unsplash-com.translate.goog/photo-1670967989217-76711b8058b3?ixlib=rb-4.0.3&dl=esma-Phaz7JBtSWE-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb&_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc" alt="Foto Capa Album">
+
+        <div class="info">
+          <h1>Bora Codar</h1>
+          <p>Banda DevMedia</p>
+        </div>
+
+        <div class="controls">
+          <div class="previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+              <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+              <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+            </svg>
+          </div>
+          <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+              <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+              <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="track-time">
+          <div class="track"></div>
+          <div class="time">
+            <div class="total-time">03:15</div>
+            <div class="last-time">00:19</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="player-2" class="player horizontal">
+      <div class="wrapper">
+        <div class="info-wrapper">
+          <img src="https://images-unsplash-com.translate.goog/photo-1670967989217-76711b8058b3?ixlib=rb-4.0.3&dl=esma-Phaz7JBtSWE-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb&_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc" alt="Foto Capa Album">
+  
+          <div class="info">
+            <h1>Bora Codar</h1>
+            <p>Banda DevMedia</p>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+              <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+              <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+            </svg>
+          </div>
+          <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+              <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+              <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="track-time">
+          <div class="track"></div>
+          <div class="time">
+            <div class="total-time">03:15</div>
+            <div class="last-time">00:19</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="player-3" class="player horizontal">
+      <div class="wrapper">
+        <div class="info-wrapper">
+          <img src="https://images-unsplash-com.translate.goog/photo-1670967989217-76711b8058b3?ixlib=rb-4.0.3&dl=esma-Phaz7JBtSWE-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb&_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc" alt="Foto Capa Album">
+  
+          <div class="info">
+            <h1>Bora Codar</h1>
+            <p>Banda DevMedia</p>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-rewind-fill" viewBox="0 0 16 16">
+              <path d="M8.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L8.404 7.304Z"/>
+              <path d="M.404 7.304a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696L.404 7.304Z"/>
+            </svg>
+          </div>
+          <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg>
+          </div>
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+              <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+              <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
