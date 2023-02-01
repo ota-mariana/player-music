@@ -1,12 +1,18 @@
-# Modelo Player de Música
+# Music Player Template
 
-O projeto realizado tem como objetivo criar um player parecido com os aplicativos de música contendo foto da capa do álbum, nome da música, nome do artista/banda, botões de play, próxima música e música anterior e linha do tempo da música. Este foi baseado nos desafios lançados pela Rocketseat.
+The project carried out aims to create a player similar to music applications containing album cover photo, song name, artist/band name, play buttons, next song and previous song and song timeline. This one was based on the challenges launched by Rocketseat.
 
-**Desafio 01 > #boraCodar um player de música.**
+**Challenge 01 > #boraCodar a Music Player.**
 
-Para o desenvolvimento desse projeto foram utilizados:
+### Languages and Technologies used
+
 - HTML
 - CSS
 - Bootstrap
 
 ![modelo-player-de-musica](https://user-images.githubusercontent.com/91161589/212496323-8ab4f145-3fa1-4e36-b00e-ed5638bf7f65.png)
+
+
+### Project Status
+
+Completed project!
